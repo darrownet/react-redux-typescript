@@ -1,0 +1,5 @@
+Deep freeze state object during development
+Interfaces as first class citizens
+Ducks: Redux Reducer Bundles
+Avoid refs
+reselect for mapStateToProps helps with derived values

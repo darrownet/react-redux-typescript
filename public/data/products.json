@@ -1,0 +1,38 @@
+[
+  {
+    "prodName": "Product Red",
+    "prodPrice": 38,
+    "prodColor": "red",
+    "sku": "123ABC"
+  },
+  {
+    "prodName": "Product Orange",
+    "prodPrice": 23,
+    "prodColor": "orange",
+    "sku:": "456DEF"
+  },
+  {
+    "prodName": "Product Yellow",
+    "prodPrice": 44,
+    "prodColor": "yellow",
+    "sku": "789GHI"
+  },
+  {
+    "prodName": "Product Green",
+    "prodPrice": 11,
+    "prodColor": "green",
+    "sku": "012JKL"
+  },
+  {
+    "prodName": "Product Blue",
+    "prodPrice": 33,
+    "prodColor": "blue",
+    "sku": "345MNO"
+  },
+  {
+    "prodName": "Product Purple",
+    "prodPrice": 54,
+    "prodColor": "purple",
+    "sku": "678PQR"
+  }
+]

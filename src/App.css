@@ -1,0 +1,147 @@
+h3{
+  margin-top: 0;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+input{
+  width: 36px;
+  text-align: center;
+  margin-right: 10px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-content{
+  position: relative;
+  text-align: left;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header span{
+  display: inline-block;
+  min-width: 120px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.shopping-catalog{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 400px;
+  margin-left: 200px;
+}
+
+
+.shopping-catalog li{
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.shopping-catalog .prod-box{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.shopping-catalog .prod-info{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.shopping-catalog .prod-box.red, .shopping-cart .cart-prod-box.red{
+  background-color: red;
+}
+.shopping-catalog .prod-box.orange, .shopping-cart .cart-prod-box.orange{
+  background-color: orange;
+}
+.shopping-catalog .prod-box.yellow, .shopping-cart .cart-prod-box.yellow{
+  background-color: yellow;
+}
+.shopping-catalog .prod-box.green, .shopping-cart .cart-prod-box.green{
+  background-color: green;
+}
+.shopping-catalog .prod-box.blue, .shopping-cart .cart-prod-box.blue{
+  background-color: blue;
+}
+.shopping-catalog .prod-box.purple, .shopping-cart .cart-prod-box.purple{
+  background-color: purple;
+}
+
+.shopping-cart{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 400px;
+  margin-right: 200px;
+}
+
+.shopping-cart .cart-prod-box{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.shopping-cart .cart-prod-info{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shopping-cart li{
+  margin-top: 20px;
+}
+
+.shopping-cart .cart-prod-info p{
+  margin:0
+}
+
+.shopping-cart .cart-prod-contol{
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
